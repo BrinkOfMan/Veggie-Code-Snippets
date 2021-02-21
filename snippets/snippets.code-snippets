@@ -1,0 +1,151 @@
+{
+    "Veggie Code Boilerplate":{
+        "prefix": "!veggiecode",
+        "body": [
+            "/*",
+            "* - -  Install and enable \"Better Comments\" extension for best use! - -  *\n",
+            "* \t🔑 KEY: ",
+            "* \t⭐ FEATURE: What are we building next? write the feature here",
+            "* \t📝 SCRIBBLE: Hmmm.. where to start? jot down some initial thoughts here",
+            "* \t✍🏾 TODO: Sweet, now we have a plan! jot down what needs to be worked on",
+            "* \t👾 BUGS: Everything works! well.. kinda. jot down any bugs you find", 
+            "* \t📄 DOCUMENTATION: Everything really works! Summarize what your code does", 
+            "* \t📌 COOL: Who knew THIS would make the function work? Note any interesting learnings.",
+            "* \t- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -", 
+            "* \t⬇️ - - USE - - ⬇️\n",
+
+                "* \t\t⭐ FEATURE ==> !vftr",
+                "* \t\t📝 - - SCRIBBLE - - 📝  ==>  !vscr ",
+                "* \t\t✍🏾 - - TODO - - ✍🏾  ==>  !vtodo ",
+                "* \t\t👾 - - BUGS - - 👾 ==> !vbug ",
+                "* \t\t📌 - - COOL - - 📌 ==>  !vwow",
+                "* \t\t📄  - - DOCUMENTATION - - 📄  ==>  !vdoc ",
+            "*/"
+        ],
+        "description": "Displays tutorial for veggie code"
+    },
+
+    "SCRIBBLE Section":{
+        "prefix": "!vscr",
+        "body": [
+            "/* * * Do Shift+Option+Down to add a new line * *",
+            "? \t📝 - - SCRIBBLE - - 📝 \n",
+                "? \t🥑 Brainstorming...",
+                "? \t🥑 Thinking...",
+                "? \t🥑 Planning...",
+            "*/",
+        ],
+        "description": "Create a scribble coder pad"
+    },
+
+    "TODO Section":{
+        "prefix": "!vtodo",
+        "body": [
+            "/* * * Do Shift+Option+Down to add a new line * *\n",
+            "TODO: \tOPTIONAL:",
+            "TODO: \tin progress = ⏳",
+            "TODO: \tcompleted = ✅\n",
+            "TODO: \t✍🏾 - - TODO - - ✍🏾\n",
+                "TODO: \t🥕 Task 1",
+                "TODO: \t🥕 Task 2",
+                "TODO: \t🥕 Task 3",
+            "*/"
+        ],
+        "description": "Create a todo section"
+    },
+
+    "BUG Section":{
+        "prefix": "!vbug",
+        "body": [
+            "/* * * Do Shift+Option+Down to add a new line * *\n",
+            "! \tOPTIONAL:",
+            "! \tin progress = ⏳",
+            "! \tcompleted = ✅\n",
+            "! \t👾 - - BUGS - - 👾\n",
+                "! \t🥝 Bug 1",
+                "! \t🥝 Another bug",
+                "! \t🥝 And another bug",
+            "*/",
+        ],
+        "description": "Create a bug reporting sections"
+    },
+
+    "COOL Section":{
+        "prefix": "!vwow",
+        "body": [
+            "/* * * Do Shift+Option+Down to add a new line * *\n",
+            "? \t📌 - - COOL - - 📌\n",
+                "? \t🍍 Cool hack",
+                "? \t🍍 Another cool hack",
+                "? \t🍍 A reaaally cool hack",
+            "*/",
+        ],
+        "description": "Create a section for useful/interesting code snippets"
+    },
+
+    "FEATURE Section":{
+        "prefix": "!vftr",
+        "body": [
+            "/*",
+            "* \t⭐ FEATURE: \" YOUR NEXT BIG FEATURE \"",
+            "*/", 
+        ],
+        "description": "Outline your new feature"
+    },
+
+    "DOCUMENTATION Section":{
+        "prefix": "!vdoc",
+        "body": [
+            "/* * * Do Shift+Option+Down to add a new line * *\n",
+            "? \t📄  - - DOCUMENTATION - - 📄\n",
+                "? \t🥥 Add some documentation",
+                "? \t🥥 Some more documentation",
+                "? \t🥥 Yet some more documentation",
+        ],
+        "description": "Jot down any documentation"
+    }
+
+        // - - SCRIBBLES - - //
+    /*
+    "New Scribble": {
+        "prefix": "!s",
+        "body": "🥒 ",
+        "description": "New scribble thought"
+    },
+    
+        // - - TODOS = = //
+
+    "New TODO": {
+        "prefix": "!t",
+        "body": "🥕 ",
+        "description": "New todo task"
+    },
+
+    "TODO Subheader 1": {
+        "prefix": "!t2",
+        "body": "\t🥑",
+        "description": "Subheader for todo task"
+    },
+
+    "TODO Subheader 2": {
+        "prefix": "!t3",
+        "body": "\t\t🌽",
+        "description": "Second subheader for main todo task"
+    },
+
+    "TODO Marked As Complete": {
+        "prefix": "!d",
+        "body": "$TM_CURRENT_LINE ✅",
+        "description": "Marked as complete"
+    },
+
+        // - - BUGS - - //
+
+    "Reported bugs":{
+        "prefix": "!b",
+        "body": "🌶 ",
+        "description": "New bug reported"
+    }
+    */
+
+}

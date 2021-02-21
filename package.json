@@ -1,0 +1,31 @@
+{
+    "name": "veggie-code",
+    "displayName": "veggie-code",
+    "description": "help developers organize their code",
+    "version": "1.0.0",
+    "icon": "logo.png",
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/nburuchara/veggie-code"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "publisher": "Norman",
+    "sync.ignoredExtensions": [],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
