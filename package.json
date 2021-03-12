@@ -1,20 +1,30 @@
 {
     "name": "veggie-code",
     "displayName": "veggie-code",
-    "description": "help developers organize their code",
+    "description": "Help developers organize their code",
     "version": "1.0.0",
     "icon": "logo.png",
     "repository" : {
         "type": "git",
-        "url": "https://github.com/nburuchara/veggie-code"
+        "url": "https://github.com/BrinkOfMan/veggie-code"
     },
     "engines": {
         "vscode": "^1.52.0"
     },
     "categories": [
+        "Formatters",
         "Snippets"
     ],
-    "publisher": "Norman",
+    "extensionKind": [
+		"ui"
+	],
+    "activationEvents": [
+        "onLnaguage:c",
+        "onLanguage:cpp",
+        "onLanguage:python"
+    ],
+    "main": "./output/extension",
+    "publisher": "Norman Burachara, Ethan Brinkman, Eric Johnson",
     "sync.ignoredExtensions": [],
     "contributes": {
         "snippets": [
@@ -28,4 +38,5 @@
             }
         ]
     }
+    
 }
