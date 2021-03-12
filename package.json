@@ -12,30 +12,33 @@
         "vscode": "^1.52.0"
     },
     "categories": [
-        "Formatters",
         "Snippets"
     ],
-    "extensionKind": [
-		"ui"
-	],
-    "activationEvents": [
-        "onLnaguage:c",
-        "onLanguage:cpp",
-        "onLanguage:python"
-    ],
-    "main": "./output/extension",
     "publisher": "Norman Burachara, Ethan Brinkman, Eric Johnson",
     "sync.ignoredExtensions": [],
     "contributes": {
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/generic.code-snippets"
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/generic.code-snippets"
+            },
+            {
+                "language": "c",
+                "path": "./snippets/generic.code-snippets"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/generic.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/generic.code-snippets"
             }
+
         ]
     }
     

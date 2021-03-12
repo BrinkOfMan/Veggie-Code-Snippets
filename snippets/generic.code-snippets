@@ -1,0 +1,115 @@
+{
+    "Generic Veggie Code Boilerplate":{
+        "scope": "all", // What languages to run in
+        "prefix": "!veggiecode",
+        "body": [
+            "$BLOCK_COMMENT_START", // Automatically formats into the source language's block comment style
+            "* - -  Install and enable \"Better Comments\" extension for best use! - -  *\n",
+            "* \t🔑 KEY: ",
+            "* \t⭐ FEATURE: What are we building next? write the feature here",
+            "* \t📝 SCRIBBLE: Hmmm.. where to start? jot down some initial thoughts here",
+            "* \t✍🏾 TODO: Sweet, now we have a plan! jot down what needs to be worked on",
+            "* \t👾 BUGS: Everything works! well.. kinda. jot down any bugs you find", 
+            "* \t📄 DOCUMENTATION: Everything really works! Summarize what your code does", 
+            "* \t📌 COOL: Who knew THIS would make the function work? Note any interesting learnings.",
+            "* \t- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -", 
+            "* \t⬇️ - - USE - - ⬇️\n",
+
+                "* \t\t⭐ FEATURE ==> !vftr",
+                "* \t\t📝 - - SCRIBBLE - - 📝  ==>  !vscr ",
+                "* \t\t✍🏾 - - TODO - - ✍🏾  ==>  !vtodo ",
+                "* \t\t👾 - - BUGS - - 👾 ==> !vbug ",
+                "* \t\t📌 - - COOL - - 📌 ==>  !vwow",
+                "* \t\t📄  - - DOCUMENTATION - - 📄  ==>  !vdoc ",
+            "$BLOCK_COMMENT_END" 
+        ],
+        "description": "Displays tutorial for veggie code"
+    },
+
+    "Generic SCRIBBLE Section":{
+        "scope": "all",
+        "prefix": "!vscr",
+        "body": [
+            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line * *",
+            "? \t📝 - - SCRIBBLE - - 📝 \n",
+                "? \t🥑 Brainstorming...",
+                "? \t🥑 Thinking...",
+                "? \t🥑 Planning...",
+            "$BLOCK_COMMENT_END",
+        ],
+        "description": "Create a scribble coder pad"
+    },
+
+    "Generic TODO Section":{
+        "scope": "all",
+        "prefix": "!vtodo",
+        "body": [
+            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "TODO: \tOPTIONAL:",
+            "TODO: \tin progress = ⏳",
+            "TODO: \tcompleted = ✅\n",
+            "TODO: \t✍🏾 - - TODO - - ✍🏾\n",
+                "TODO: \t🥕 Task 1",
+                "TODO: \t🥕 Task 2",
+                "TODO: \t🥕 Task 3",
+            "$BLOCK_COMMENT_END"
+        ],
+        "description": "Create a todo section"
+    },
+
+    "Generic BUG Section":{
+        "scope": "all",
+        "prefix": "!vbug",
+        "body": [
+            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "! \tOPTIONAL:",
+            "! \tin progress = ⏳",
+            "! \tcompleted = ✅\n",
+            "! \t👾 - - BUGS - - 👾\n",
+                "! \t🥝 Bug 1",
+                "! \t🥝 Another bug",
+                "! \t🥝 And another bug",
+            "$BLOCK_COMMENT_END",
+        ],
+        "description": "Create a bug reporting sections"
+    },
+
+    "Generic COOL Section":{
+        "scope": "all",
+        "prefix": "!vwow",
+        "body": [
+            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "? \t📌 - - COOL - - 📌\n",
+                "? \t🍍 Cool hack",
+                "? \t🍍 Another cool hack",
+                "? \t🍍 A reaaally cool hack",
+            "$BLOCK_COMMENT_END",
+        ],
+        "description": "Create a section for useful/interesting code snippets"
+    },
+
+    "Generic FEATURE Section":{
+        "scope": "all",
+        "prefix": "!vftr",
+        "body": [
+            "$BLOCK_COMMENT_START",
+            "* \t⭐ FEATURE: \" YOUR NEXT BIG FEATURE \"",
+            "$BLOCK_COMMENT_END", 
+        ],
+        "description": "Outline your new feature"
+    },
+
+    "Generic DOCUMENTATION Section":{
+        "scope": "all",
+        "prefix": "!vdoc",
+        "body": [
+            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "? \t📄  - - DOCUMENTATION - - 📄\n",
+                "? \t🥥 Add some documentation",
+                "? \t🥥 Some more documentation",
+                "? \t🥥 Yet some more documentation",
+            "$BLOCK_COMMENT_END"
+        ],
+        "description": "Jot down any documentation"
+    },
+}
