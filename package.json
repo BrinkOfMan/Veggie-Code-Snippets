@@ -1,52 +1,55 @@
 {
-    "name": "veggie-code-snippets",
-    "displayName": "Veggie Code Snippets",
-    "description": "A project mangement tool to keep users within VSCode",
-    "version": "1.0.2",
-    "icon": "logo.png",
-    "repository" : {
-        "type": "git",
-        "url": "https://github.com/BrinkOfMan/veggie-code"
-    },
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "publisher": "Veggie-Coders",
+	"name": "veggie-code-snippets",
+	"displayName": "Veggie Code Snippets",
+	"description": "A project mangement tool to keep users within VSCode",
+	"version": "1.0.2",
+	"icon": "logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BrinkOfMan/veggie-code"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"publisher": "VeggieCoders",
 	"author": {
 		"name": "Ethan Brinkman, Norman Burachara, Eric Johnson"
 	},
-    "galleryBanner": {
+	"galleryBanner": {
 		"color": "#727475",
 		"theme": "dark"
 	},
-    "sync.ignoredExtensions": [],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/generic.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/generic.code-snippets"
-            },
-            {
-                "language": "c",
-                "path": "./snippets/generic.code-snippets"
-            },
-            {
-                "language": "cpp",
-                "path": "./snippets/generic.code-snippets"
-            },
-            {
-                "language": "python",
-                "path": "./snippets/generic.code-snippets"
-            }
-
-        ]
-    }
-    
+	"sync.ignoredExtensions": [],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "c",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/generic.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f58ed22d-4305-4250-b91f-268a1996ee43",
+		"publisherDisplayName": "Veggie Coders",
+		"publisherId": "9a87118a-4539-4c4e-8576-429cf74fc9af"
+	}
 }
