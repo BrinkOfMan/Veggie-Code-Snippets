@@ -1,5 +1,5 @@
 # Veggie-Code
-A web-based project management tool developed to keep users within VSCode and organized.
+A project management tool developed to keep users within VSCode and organized.
 
 Introduces a variety of snippets to allow for quicker formatting of project management and code organization.
 
