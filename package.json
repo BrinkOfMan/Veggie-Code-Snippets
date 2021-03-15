@@ -9,7 +9,7 @@
 		"url": "https://github.com/BrinkOfMan/veggie-Code-Snippets"
 	},
 	"engines": {
-		"vscode": "^1.52.0"
+		"vscode": "^1.47.0"
 	},
 	"categories": [
 		"Snippets"
