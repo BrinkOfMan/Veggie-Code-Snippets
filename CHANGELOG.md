@@ -2,7 +2,7 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.0.2 / 1.0.3] - Mar 15, 2021
+## [1.0.2 / 1.0.3 / 1.0.4] - Mar 15, 2021
 
 - Added Gantt Chart template
 
