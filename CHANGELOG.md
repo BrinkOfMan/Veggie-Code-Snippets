@@ -16,3 +16,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added template snippet functionality for .js files
 
+- Added template snippet functionality for .js files
