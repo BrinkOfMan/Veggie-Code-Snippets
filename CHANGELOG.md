@@ -2,6 +2,14 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.2] - Mar 15, 2021
+
+- Added Gantt Chart template
+
+- Test publishing of snippet extension
+
+- Creating extension package for future publication; will figure out licensing work and procedure for adding other projects into our package
+
 ## [1.0.1] - Mar 12, 2021
 
 - Added language support for snippet functionality: .c, .cpp, .py

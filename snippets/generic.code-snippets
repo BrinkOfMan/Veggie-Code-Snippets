@@ -1,5 +1,5 @@
 {
-    "Generic Veggie Code Boilerplate":{
+    "Veggie Code Boilerplate":{
         "scope": "all", // What languages to run in
         "prefix": "!veggiecode",
         "body": [
@@ -26,11 +26,11 @@
         "description": "Displays tutorial for veggie code"
     },
 
-    "Generic SCRIBBLE Section":{
+    "SCRIBBLE Section":{
         "scope": "all",
         "prefix": "!vscr",
         "body": [
-            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line * *",
+            "$BLOCK_COMMENT_START",
             "? \t📝 - - SCRIBBLE - - 📝 \n",
                 "? \t🥑 Brainstorming...",
                 "? \t🥑 Thinking...",
@@ -40,11 +40,11 @@
         "description": "Create a scribble coder pad"
     },
 
-    "Generic TODO Section":{
+    "TODO Section":{
         "scope": "all",
         "prefix": "!vtodo",
         "body": [
-            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "$BLOCK_COMMENT_START",
             "TODO: \tOPTIONAL:",
             "TODO: \tin progress = ⏳",
             "TODO: \tcompleted = ✅\n",
@@ -57,11 +57,11 @@
         "description": "Create a todo section"
     },
 
-    "Generic BUG Section":{
+    "BUG Section":{
         "scope": "all",
         "prefix": "!vbug",
         "body": [
-            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "$BLOCK_COMMENT_START",
             "! \tOPTIONAL:",
             "! \tin progress = ⏳",
             "! \tcompleted = ✅\n",
@@ -74,11 +74,11 @@
         "description": "Create a bug reporting sections"
     },
 
-    "Generic COOL Section":{
+    "COOL Section":{
         "scope": "all",
         "prefix": "!vwow",
         "body": [
-            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "$BLOCK_COMMENT_START",
             "? \t📌 - - COOL - - 📌\n",
                 "? \t🍍 Cool hack",
                 "? \t🍍 Another cool hack",
@@ -88,7 +88,7 @@
         "description": "Create a section for useful/interesting code snippets"
     },
 
-    "Generic FEATURE Section":{
+    "FEATURE Section":{
         "scope": "all",
         "prefix": "!vftr",
         "body": [
@@ -99,11 +99,11 @@
         "description": "Outline your new feature"
     },
 
-    "Generic DOCUMENTATION Section":{
+    "DOCUMENTATION Section":{
         "scope": "all",
         "prefix": "!vdoc",
         "body": [
-            "$BLOCK_COMMENT_START Do Shift+Option+Down to add a new line \n",
+            "$BLOCK_COMMENT_START",
             "? \t📄  - - DOCUMENTATION - - 📄\n",
                 "? \t🥥 Add some documentation",
                 "? \t🥥 Some more documentation",
@@ -111,5 +111,22 @@
             "$BLOCK_COMMENT_END"
         ],
         "description": "Jot down any documentation"
+    },
+
+    "Gantt Chart":{
+        "scope": "all",
+        "prefix": "!vchart",
+        "body": [
+            "$BLOCK_COMMENT_START",
+            "? Gantt Chart",
+            "? Project Task:\t\tDays: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31",
+            "!\t\t Task1\t\t\t  ##########",
+            "todo\t Task2\t\t\t           #############          ###########       ####",
+            "*\t\t Task3\t\t\t            ####       ######                ####         ####",
+            "\t\t Task4\t\t\t          ########",
+            "?\t\t Task5\t\t\t     ####          ###########                             ######################",
+            "$BLOCK_COMMENT_END"
+        ],
+        "description": "Create a Gantt chart"
     },
 }

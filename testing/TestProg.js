@@ -17,3 +17,11 @@
 ! 	🥝 Another bug
 ! 	🥝 And another bug
 */
+/* 
+! 	📄  - - DOCUMENTATION - - 📄
+TODO 
+
+? 	🥥 Add some documentation
+? 	🥥 Some more documentation
+? 	🥥 Yet some more documentation
+*/

@@ -1,8 +1,8 @@
 {
-    "name": "veggie-code",
-    "displayName": "veggie-code",
-    "description": "Help developers organize their code",
-    "version": "1.0.0",
+    "name": "veggie-code-snippets",
+    "displayName": "Veggie Code Snippets",
+    "description": "A project mangement tool to keep users within VSCode",
+    "version": "1.0.1",
     "icon": "logo.png",
     "repository" : {
         "type": "git",
@@ -14,7 +14,14 @@
     "categories": [
         "Snippets"
     ],
-    "publisher": "Norman Burachara, Ethan Brinkman, Eric Johnson",
+    "publisher": "Veggie-Coders",
+	"author": {
+		"name": "Ethan Brinkman, Norman Burachara, Eric Johnson"
+	},
+    "galleryBanner": {
+		"color": "#727475",
+		"theme": "dark"
+	},
     "sync.ignoredExtensions": [],
     "contributes": {
         "snippets": [
