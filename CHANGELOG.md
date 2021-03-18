@@ -2,6 +2,14 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.5] - Mar 18, 2021
+
+- Added Tab Stop + Choice functionality, makes filling out the snippet templates easier
+
+- Added progress icon snippet for quick access to STOP 🛑, IN-PROGRESS ⏳, or COMPLETE ✅ progress icons.
+
+- Published extension and extension pack with Better Comments bundled to Visual Stuido Marketplace
+
 ## [1.0.2 / 1.0.3 / 1.0.4] - Mar 15, 2021
 
 - Added Gantt Chart template
