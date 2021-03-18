@@ -2,7 +2,7 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.0.5] - Mar 18, 2021
+## [1.0.5 / 1.0.6] - Mar 18, 2021
 
 - Added Tab Stop + Choice functionality, makes filling out the snippet templates easier
 
