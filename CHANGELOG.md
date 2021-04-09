@@ -1,6 +1,8 @@
-# Change Log
+## [1.0.8] - Apr 9, 2021
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Added sample use documents to the testing folder
+
+- Updated README.md to guide users to these documents
 
 ## [1.0.7] - Apr 2, 2021
 

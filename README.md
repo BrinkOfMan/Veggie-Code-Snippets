@@ -7,5 +7,6 @@ Snippet prefixes all contain "!v" and will work by hitting the "Tab" key after c
 
 To get started, use "!veggiecode" to see all possible snippets and their descriptions.
 
-Happy managing!
+To see sample files for both in-document and workflow styles of extension use, visit the "testing" folder located within the "Veggie-Code-Snippets" folder.
 
+Happy managing!
