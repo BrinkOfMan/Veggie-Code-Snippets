@@ -1,3 +1,11 @@
+## [1.0.9] - Apr 12, 2021
+
+- Fixed a type in the !veggiecode snippet with !vcool
+
+- Added a visual demo and pictures of each snippet into the README.md file
+
+- Linked repository in README.md file
+
 ## [1.0.8] - Apr 9, 2021
 
 - Added sample use documents to the testing folder

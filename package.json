@@ -2,7 +2,7 @@
 	"name": "veggie-code-snippets",
 	"displayName": "Veggie Code Snippets",
 	"description": "A project management tool to keep users within VSCode.",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"icon": "img/icon.png",
 	"repository": {
 		"type": "git",
