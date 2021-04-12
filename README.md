@@ -58,4 +58,6 @@ Snippet prefixes all contain "!v" and will work by hitting the "Tab" key after c
 
 To see sample files for both in-document and workflow styles of extension use, visit the "testing" folder located within the "Veggie-Code-Snippets" folder.
 
+These documents are also available via the [extension repository](https://github.com/BrinkOfMan/Veggie-Code-Snippets/tree/main/testing)
+
 # Happy managing!
