@@ -1,8 +1,10 @@
-## [1.0.9] - Apr 12, 2021
+## [1.0.9 - 1.0.13] - Apr 12, 2021
 
 - Fixed a type in the !veggiecode snippet with !vcool
 
 - Added a visual demo and pictures of each snippet into the README.md file
+
+-- Published 4 additional versions to debug images not showing up in readme; forgot to make image link raw instead of default.
 
 - Linked repository in README.md file
 
