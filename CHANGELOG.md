@@ -1,3 +1,7 @@
+## [1.0.14] - Apr 19, 2021
+
+- Added comments section to !vtodo, updated corresponding example image
+
 ## [1.0.9 - 1.0.13] - Apr 12, 2021
 
 - Fixed a type in the !veggiecode snippet with !vcool

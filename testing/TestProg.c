@@ -41,3 +41,18 @@ int main(int argc, char **argv){
 
     return 0;
 }
+/*
+TODO: 	✍🏾 - - TODO - - ✍🏾
+
+TODO: 	🥕 Task 1
+TODO: 	🥕 Progress: 🛑
+TODO: 	🥕 Comments
+
+TODO: 	🥕 Task 2
+TODO: 	🥕 Progress: 🛑
+TODO: 	🥕 Comments
+
+TODO: 	🥕 Task 3
+TODO: 	🥕 Progress: 🛑
+TODO: 	🥕 Comments
+*/
