@@ -136,9 +136,9 @@
             "$BLOCK_COMMENT_START",
             "* \t⭐ - - FEATURES - - ⭐\n",
             "* \t⭐ ${1:Feature 1} ",
-            "* \t⭐ ${2:Description 1} ",
+            "* \t⭐ ${2:Description 1} \n",
             "* \t⭐ ${3:Feature 2} ",
-            "* \t⭐ ${4:Description 2} ",
+            "* \t⭐ ${4:Description 2} \n",
             "* \t⭐ ${5:Feature 3} ",
             "* \t⭐ ${6:Description 3} ",
                 
