@@ -41,7 +41,7 @@
                 "? \t🥑 ${1:Brainstorming...}",
                 "? \t🥑 ${2:Thinking...}",
                 "? \t🥑 ${3:Planning...}",
-            "$BLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_END"
         ],
         "description": "Create a scribble coder pad"
     },
@@ -76,7 +76,7 @@
                 "! \t🥝 ${2:Description}",
                 "! \t🥝 Progress: ${3|🛑,⏳,✅|}",
                 "! \t🥝 ${4:Comments}",
-            "$BLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_END"
         ],
         "description": "Create a bug description"
     },
@@ -89,14 +89,17 @@
             "! \t👾 - - BUGS - - 👾\n",
                 "! \t🥝 ${1:Bug 1}",
                 "! \t🥝 ${2:Bug 1 description}",
-                "! \t🥝 Progress: ${3|🛑,⏳,✅|}\n",
-                "! \t🥝 ${4:Bug 2}",
-                "! \t🥝 ${5:Bug 2 description}",
-                "! \t🥝 Progress: ${6|🛑,⏳,✅|}\n",
-                "! \t🥝 ${7:Bug 3}",
-                "! \t🥝 ${8:Bug 3 description}",
-                "! \t🥝 Progress: ${9|🛑,⏳,✅|}",
-            "$BLOCK_COMMENT_END",
+                "! \t🥝 Progress: ${3|🛑,⏳,✅|}",
+                "! \t🥝 ${4:Comments}\n",
+                "! \t🥝 ${5:Bug 2}",
+                "! \t🥝 ${6:Bug 2 description}",
+                "! \t🥝 Progress: ${7|🛑,⏳,✅|}",
+                "! \t🥝 ${8:Comments}\n",
+                "! \t🥝 ${9:Bug 3}",
+                "! \t🥝 ${10:Bug 3 description}",
+                "! \t🥝 Progress: ${11|🛑,⏳,✅|}",
+                "! \t🥝 ${12:Comments}",
+            "$BLOCK_COMMENT_END"
         ],
         "description": "Create a bug reporting section"
     },
@@ -110,7 +113,7 @@
                 "? \t🍍 ${1:Something cool}",
                 "? \t🍍 ${2:Description}",
                 "? \t🍍 ${3:Comments}",
-            "$BLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_END"
         ],
         "description": "Create a description for useful/interesting code"
     },
@@ -121,10 +124,10 @@
         "body": [
             "$BLOCK_COMMENT_START",
             "* \t⭐ - - FEATURE - - ⭐\n",
-            "* \t⭐ ${1:Program feature} ",
-            "* \t⭐ ${2:Feature description} ",
+            "* \t⭐ ${1:Program feature}",
+            "* \t⭐ ${2:Feature description}",
                 
-            "$BLOCK_COMMENT_END", 
+            "$BLOCK_COMMENT_END" 
         ],
         "description": "Outline a feature"
     },
@@ -142,7 +145,7 @@
             "* \t⭐ ${5:Feature 3} ",
             "* \t⭐ ${6:Description 3} ",
                 
-            "$BLOCK_COMMENT_END", 
+            "$BLOCK_COMMENT_END" 
         ],
         "description": "Outline your program features"
     },
@@ -182,8 +185,8 @@
         "scope": "all",
         "prefix": "!vprog",
         "body": [
-            "${1|🛑,⏳,✅|}",
+            "${1|🛑,⏳,✅|}"
         ],
         "description": "List off the progress icons"
-    },
+    }
 }

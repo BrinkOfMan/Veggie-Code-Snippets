@@ -2,7 +2,7 @@
 	"name": "veggie-code-snippets",
 	"displayName": "Veggie Code Snippets",
 	"description": "A project management tool to keep users within VSCode.",
-	"version": "1.0.15",
+	"version": "1.8",
 	"icon": "img/icon.png",
 	"repository": {
 		"type": "git",
@@ -26,11 +26,23 @@
 	"contributes": {
 		"snippets": [
 			{
+				"language": "typescript",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
 				"language": "javascript",
 				"path": "./snippets/generic.code-snippets"
 			},
 			{
 				"language": "javascriptreact",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "json",
 				"path": "./snippets/generic.code-snippets"
 			},
 			{
@@ -42,7 +54,47 @@
 				"path": "./snippets/generic.code-snippets"
 			},
 			{
+				"language": "csharp",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "yaml",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "java",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "sql",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "go",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
 				"language": "python",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "r",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "plaintext",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "tex",
+				"path": "./snippets/generic.code-snippets"
+			},
+			{
+				"language": "markdown",
 				"path": "./snippets/generic.code-snippets"
 			}
 		]
