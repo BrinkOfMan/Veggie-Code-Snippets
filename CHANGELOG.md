@@ -1,10 +1,12 @@
-## [1.8.0] - Apr 27, 2021
+## [1.8.0 / 1.8.1] - Apr 27, 2021
 
-- Added compatability for a lot of languages
+- Added compatibility for a lot of languages
 
 - Added comments for !vbugsec
 
 - Cleaned up trailing commas in generic.code-snippets
+
+- Fixed typo in CHANGELOG
 
 ## [1.7.0 / 1.7.1] - Apr 19, 2021
 
